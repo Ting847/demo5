@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/icon.png">
+    <title>Dropdown Menu </title>
+</head>
+
+<body>
+    <div class="menu">
+        <a href="#"><img src="./images/travel.png" alt=""></a>
+        <a href=""><span class="logo">Travel Taiwan</span></a>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a>
+                    <ul>
+                        <li><a href="">List1</a></li>
+                        <li><a href="">List2</a></li>
+                        <li><a href="">List3</a></li>
+                        <li><a href="">List4</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Services</a>
+                    <ul>
+                        <li><a href="">List1</a></li>
+                        <li><a href="">List2</a></li>
+                        <li><a href="">List3</a></li>
+                        <li><a href="">List4</a></li>
+                        <li><a href="">List5</a></li>
+                        <li><a href="">List6</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Portfolio</a>
+                    <ul>
+                        <li><a href="">List1</a></li>
+                        <li><a href="">List2</a></li>
+                        <li><a href="">List3</a></li>
+                        <li><a href="">List4</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Pages</a>
+                    <ul>
+                        <li><a href="">List1</a></li>
+                        <li><a href="">List2</a></li>
+                        <li><a href="">List3</a></li>
+                        <li><a href="">List4</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="banner">
+
+    </section>
+    <section class="content">
+        
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Eaque, minus maiores? Corrupti, ea soluta ab autem corporis
+            quo doloribus adipisci a architecto nobis excepturi doloremque.
+            Veniam sapiente nobis dolore dignissimos?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Eaque, minus maiores? Corrupti, ea soluta ab autem corporis
+            quo doloribus adipisci a architecto nobis excepturi doloremque.
+            Veniam sapiente nobis dolore dignissimos?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Eaque, minus maiores? Corrupti, ea soluta ab autem corporis
+            quo doloribus adipisci a architecto nobis excepturi doloremque.
+            Veniam sapiente nobis dolore dignissimos?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Eaque, minus maiores? Corrupti, ea soluta ab autem corporis
+            quo doloribus adipisci a architecto nobis excepturi doloremque.
+            Veniam sapiente nobis dolore dignissimos?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Eaque, minus maiores? Corrupti, ea soluta ab autem corporis
+            quo doloribus adipisci a architecto nobis excepturi doloremque.
+            Veniam sapiente nobis dolore dignissimos?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Eaque, minus maiores? Corrupti, ea soluta ab autem corporis
+            quo doloribus adipisci a architecto nobis excepturi doloremque.
+            Veniam sapiente nobis dolore dignissimos?
+        </p>
+    </section>
+    <footer>
+
+    </footer>
+
+
+
+
+
+
+    <!--<div>Icons made by <a href="https://www.flaticon.com/authors/popcorns-arts" 
+            title="Icon Pond">Icon Pond</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by 
+            <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(window).on('scroll', function () {
+                if ($(window).scrollTop() !== 0) {
+                    $('.menu').addClass('black');
+                }
+                else {
+                    $('.menu').removeClass('black');
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>
